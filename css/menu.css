@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#menuprincipal{
+    background: black;
+    width: 485px;
+    margin: 0px;
+}
+
+#menuprincipal ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#menuprincipal ul li{
+    float: left;
+    list-style: none;
+}
+
+#menuprincipal ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+    color: white;
+}
+
+#menuprincipal ul li a :hover{
+    background: #347fe5;
+    font-weight: bold;
+}
